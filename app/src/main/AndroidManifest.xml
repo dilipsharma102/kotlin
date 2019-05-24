@@ -17,13 +17,15 @@
         <activity android:name=".dialogbox.dialog" />
         <activity android:name=".coustombox.customebutton"></activity>
         <activity android:name=".webview.webview">
+        </activity>
+        <activity android:name=".DatePicker.date_picker">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DatePicker.date_picker"></activity>
+
     </application>
 
 </manifest>
